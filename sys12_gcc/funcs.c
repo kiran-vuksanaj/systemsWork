@@ -1,3 +1,4 @@
+// #include<stdio.h>
 #include<stdlib.h>
 
 double arrayAvg(int *aryP,int aryLength){
@@ -6,6 +7,7 @@ double arrayAvg(int *aryP,int aryLength){
   for( i = 0; i < aryLength; i++){
     out += aryP[i];
   }
+  // printf("\n\n THIS IS JUST A TEST TO SEE WHETHER MAKE IS UPDATING THE CODE!! \n\n");
   return out / aryLength;
 }
 void copyArray(int *a0, int *a1, int size){
