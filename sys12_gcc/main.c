@@ -4,15 +4,12 @@
 
 int main(){
   int ARRAY_LENGTH = 10;
-  int sampleArray[ARRAY_LENGTH];
-  for(int i=0;i<ARRAY_LENGTH;i++){
-    sampleArray[i] = i;
-  }
+  int sampleArray[] = {5, 3, 4, 3, 4, 4, 4, 8, 9, 9};
   int* aryP = sampleArray;
   int arrayToCopyTo[ARRAY_LENGTH];
   int* copiedAry = arrayToCopyTo;
   printf("C file: sys10func.c \n");
-  printf("array average: %d \n",arrayAvg(aryP,ARRAY_LENGTH));
+  printf("array average: %lf \n",arrayAvg(aryP,ARRAY_LENGTH));
 
   printf("original array: [");
   for(int i=0;i<ARRAY_LENGTH;i++){

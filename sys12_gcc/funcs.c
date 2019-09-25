@@ -1,7 +1,7 @@
 #include<stdlib.h>
 
-int arrayAvg(int *aryP,int aryLength){
-  int out = 0;
+double arrayAvg(int *aryP,int aryLength){
+  double out = 0.0;
   int i;
   for( i = 0; i < aryLength; i++){
     out += aryP[i];
